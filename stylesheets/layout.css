@@ -18,10 +18,10 @@ body {
 }
 
 .fa-phone:hover {
-    color: #0abfbf;
+    color: ##f2f2f2;
 }
 .fa-envelope:hover {
-    color: #0abfbf;
+    color: ##f2f2f2;
 }
 /*===== Lists =====*/
 ul, ol { margin-bottom:0px; }
@@ -82,8 +82,8 @@ section{
 }
 .rzm_button a:hover{
 	color:#fff !important;
-	background:#0abfbf;
-	border-color:#0abfbf !important;
+	background:##f2f2f2;
+	border-color:##f2f2f2 !important;
 }
 .rzm_button i{
 	padding-right:7px;
@@ -152,7 +152,7 @@ section{
  font-size:16px;
 }
 .rzm_profile_nav .primary li a:hover{
- color:#0abfbf;
+ color:##f2f2f2;
 }
 .go_to_top i{
 	font-size: 13px;
@@ -389,7 +389,7 @@ span.rzm_importo{
     font-size: 18px;
 }
 span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
-	color:#0abfbf !important;
+	color:##f2f2f2 !important;
 	cursor:pointer;
 }
 
@@ -400,11 +400,11 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
     font-size: 14px;
 }
 .active li .rzm_importo{
-	color:#0abfbf;
+	color:##f2f2f2;
 	
 }
 #rzm_timeline .rzm_timeline-badge.active_box{
-	background-color:#0abfbf;
+	background-color:##f2f2f2;
 }
 /*========================================
  	====End experience Timeline ====  

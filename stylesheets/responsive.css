@@ -143,7 +143,7 @@ text-rendering: auto;
 -moz-osx-font-smoothing: grayscale;
 transform: translate(0, 0);
 content: "\f0c9";
-color: #0abfbf;
+color: ##f2f2f2;
 margin-top: 5px;
 	}
 #slide-nav  .navbar-toggle.slide-active:before{
@@ -404,8 +404,8 @@ left:25%;
 	text-align: center;
 }
 	.navbar-inverse {
-    background-color: #0ABFBF !important;
-    border-color: #0ABFBF !important;
+    background-color: ##f2f2f2 !important;
+    border-color: ##f2f2f2 !important;
 }
 	.navbar-inverse .navbar-nav > li > a {
     color: #fff !important;
