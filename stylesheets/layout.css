@@ -370,10 +370,7 @@ h1.title {
 .rzm_timeline-panel-ul li{
 	line-height:17px !important;
 }
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.credits .rzm_timeline-panel-ul li span.importo {
-  color: #468c1f;
-  font-size: 1.3em;
-}
+
 #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.debits .rzm_timeline-panel-ul {
   text-align: left;
 }
@@ -389,7 +386,7 @@ span.rzm_importo{
     font-size: 18px;
 }
 span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
-	color:##f2f2f2 !important;
+	color:##99AAB5 !important;
 	cursor:pointer;
 }
 
@@ -400,7 +397,7 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
     font-size: 14px;
 }
 .active li .rzm_importo{
-	color:##f2f2f2;
+	color:##99AAB5;
 	
 }
 #rzm_timeline .rzm_timeline-badge.active_box{
