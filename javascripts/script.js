@@ -37,7 +37,7 @@ function darkMode() {
  
 
 
-// Custom script for the Select navigation on mobile/tablet devices by Chris Coyier http://css-tricks.com/convert-menu-to-dropdown/ (with some modification)
+// Custom script for the Select navigation on mobile/tablet devices by Chris Coyier http://css-tricks.com/convert-menu-to-dropdown/ 
 
 
 
