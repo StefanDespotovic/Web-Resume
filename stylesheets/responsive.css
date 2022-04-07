@@ -410,13 +410,18 @@ left:25%;
 	.navbar-inverse .navbar-nav > li > a {
     color: #fff !important;
 }
-#english {
+	#english {
 	margin-bottom: -23% !important;
 	margin-left: -40%;
   }
 	.navbar-nav {
-left: 10%;
-position: absolute;
+	left: 10%;
+	position: absolute;
+}
+	.nav>li>a {
+    position: relative;
+    display: inline;
+    padding: 10px 15px;
 }
 	.navbar-nav {
     margin: 0 auto;
