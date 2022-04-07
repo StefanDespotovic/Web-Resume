@@ -410,8 +410,11 @@ left:25%;
 	.navbar-inverse .navbar-nav > li > a {
     color: #fff !important;
 }
+#english {
+	margin-bottom: 0 !important;
+  }
 	.navbar-nav {
-left: 15%;
+left: 10%;
 position: absolute;
 }
 	.navbar-nav {
