@@ -418,11 +418,6 @@ left:25%;
 	left: 10%;
 	position: absolute;
 }
-	.nav li a {
-    position: relative;
-    display: inline;
-    padding: 10px 15px;
-}
 	.navbar-nav {
     margin: 0 auto;
 }  
