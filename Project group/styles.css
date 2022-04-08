@@ -150,6 +150,9 @@ p{
 .form_wrapper .form_input{
 	margin-bottom: 15px;
 }
+input[type="text"], input[type="password"], textarea, select { 
+    outline: blue;
+}
 
 .form_wrapper .form_input input[type="text"]{
 	width: 250px;
