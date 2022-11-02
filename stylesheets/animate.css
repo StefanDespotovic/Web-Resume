@@ -1,4 +1,6 @@
-
+html {
+	scroll-behavior: smooth;
+}
 .animated {
 	-webkit-animation-fill-mode: both;
 	-moz-animation-fill-mode: both;
