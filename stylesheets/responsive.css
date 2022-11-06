@@ -60,6 +60,12 @@ html,body{
 
 @media (max-width:767px) { 
 
+
+	.col-xs-12 {
+		width: 99% !important;
+	}
+
+
 	h1.title{
 	padding: 90px 0 18px 0;
 	font-size: 24px;
@@ -243,7 +249,13 @@ margin-top: 5px;
 		z-index: 999999;
 		
 	}
-
+.iframe{
+	width: 339% !important;
+    margin-left: -105% !important;
+}
+.about_info {
+    margin: 18px 0 30px 0;
+}
 #slidemenu ul li:before {
     content: '';
     position: absolute;
@@ -338,7 +350,7 @@ left:25%;
 
 }
  #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.debits .rzm_timeline-panel-ul span.importo{
-    font-size: 18px;
+    font-size: 16px;
 }
 	.thumbnail.adjust1 .media-object{
 		margin-bottom: 10px;
