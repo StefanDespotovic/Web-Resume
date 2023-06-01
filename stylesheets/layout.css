@@ -1,58 +1,71 @@
-
 /*========================================
  	==== 1.0 General Typorgraphy ====  
 ========================================*/
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700,900";
 
 body {
-	background:#fff;
-	font-family: 'Lato', sans-serif;
-	line-height:1.6em;
-	overflow-x:hidden;
-	color:#404040;
+  background: #fff;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6em;
+  overflow-x: hidden;
+  color: #404040;
 }
 * {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .fa-phone:hover {
-    color: ##f2f2f2;
+  color: ##f2f2f2;
 }
 .fa-envelope:hover {
-    color: ##f2f2f2;
+  color: ##f2f2f2;
 }
 /*===== Lists =====*/
-ul, ol { margin-bottom:0px; }
-ul li { margin-bottom:15px; }
+ul,
+ol {
+  margin-bottom: 0px;
+}
+ul li {
+  margin-bottom: 15px;
+}
 /*===== End Lists =====*/
 
-a { color:#00bbcc; }
-a:focus, a:hover, a.active {color:#00bbcc;  }
-section{
+a {
+  color: #00bbcc;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-size:18px !important;
-  font-family: 'Lato', sans-serif !important;
+a:focus,
+a:hover,
+a.active {
+  color: #00bbcc;
 }
-::-moz-placeholder { /* Firefox 19+ */
-  font-size:18px !important;
-  font-family: 'Lato', sans-serif !important;
+section {
 }
-:-ms-input-placeholder { /* IE 10+ */
-  font-size:18px !important;
-  font-family: 'Lato', sans-serif !important;
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
 }
-:-moz-placeholder { /* Firefox 18- */
-  font-size:18px !important;
-  font-family: 'Lato', sans-serif !important;
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
 }
-::placeholder{
-	font-size:18px !important;
-	font-family: 'Lato', sans-serif !important;
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
 }
-
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
+}
+::placeholder {
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
+}
 
 /*========================================
  	==== End General Typorgraphy ====  
@@ -60,39 +73,40 @@ section{
 /*========================================
  	==== 2.0 Common Preset ====  
 ========================================*/
-.no_padding_left{
-	padding-left:0px !important;
+.no_padding_left {
+  padding-left: 0px !important;
 }
-.no_padding_right{
-	padding-right:0px !important;
+.no_padding_right {
+  padding-right: 0px !important;
 }
-.rzm_button a{
-	max-width:160px;
-	margin:40px auto;
-	display:block;
-	border-radius:20px;
-	color:#808080 !important;
-	border-color:#b2b2b2 !important;
-	font-family: 'Lato', sans-serif; font-weight:900;
-	font-size:15px;
-	padding: 8px 10px;
-	border-width:2px !important;
-	background:#fcfcfc;
-	
+.rzm_button a {
+  max-width: 160px;
+  margin: 40px auto;
+  display: block;
+  border-radius: 20px;
+  color: #808080 !important;
+  border-color: #b2b2b2 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-width: 2px !important;
+  background: #fcfcfc;
 }
-.rzm_button a:hover{
-	color:#fff !important;
-	background:##f2f2f2;
-	border-color:##f2f2f2 !important;
+.rzm_button a:hover {
+  color: #fff !important;
+  background: ##f2f2f2;
+  border-color: ##f2f2f2 !important;
 }
-.rzm_button i{
-	padding-right:7px;
+.rzm_button i {
+  padding-right: 7px;
 }
 .form-control:focus {
   border-color: #00b3ab;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
-          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 1px rgba(0, 179, 171, 1) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 1px rgba(0, 179, 171, 1) !important;
 }
 /*========================================
  	==== End Common Preset ====  
@@ -101,85 +115,84 @@ section{
  	==== 3.0 Header ====  
 ========================================*/
 .img-circle {
-   -moz-border-radius: 50% !important;
-   -webkit-border-radius: 50%;
-	 border-radius: 50%;
+  -moz-border-radius: 50% !important;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 .rzm_outside-header {
-	width:100%;
-	background:url(../img/header_bacground.jpg) repeat center center;
-	min-height:300px;
+  width: 100%;
+  background: url(../img/header_bacground.jpg) repeat center center;
+  min-height: 300px;
 }
-.rzm_profile_nav{
+.rzm_profile_nav {
 }
 /*===== .logo =====*/
-.logo img{
-	margin-top:-150px;
-	max-width: 250px;
+.logo img {
+  margin-top: -150px;
+  max-width: 250px;
 }
 /*===== End .logo =====*/
 
-.sticky{
- position:fixed;
- display:block;
- z-index:1000;
+.sticky {
+  position: fixed;
+  display: block;
+  z-index: 1000;
 }
 
-.rzm_main_menu{
-	background:#f2f2f2;
-	margin-top:-40%;
-	max-width:200px;
-	margin-left:25px;
-	padding-top:85px;
-	padding-bottom:20px;
-	border-bottom-left-radius:20px;
-	border-bottom-right-radius:20px;
+.rzm_main_menu {
+  background: #f2f2f2;
+  margin-top: -35%;
+  max-width: 200px;
+  margin-left: 25px;
+  padding-top: 85px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.rzm_profile_nav ul{
- list-style:none;
- 
+.rzm_profile_nav ul {
+  list-style: none;
 }
 .rzm_profile_nav .primary li {
- color:#373737;
- text-align:left;
- height:20px;
+  color: #373737;
+  text-align: left;
+  height: 20px;
 }
 .rzm_profile_nav .primary li a {
-	font-family: 'Lato', sans-serif;
- text-decoration:none;
- color:#000;
- font-weight:700;
- font-size:16px;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
 }
-.rzm_profile_nav .primary li a:hover{
- color:##f2f2f2;
+.rzm_profile_nav .primary li a:hover {
+  color: ##f2f2f2;
 }
-.go_to_top i{
-	font-size: 13px;
-    margin-left: 2px;
+.go_to_top i {
+  font-size: 13px;
+  margin-left: 2px;
 }
-.social_nav{
-	text-align:center;
+.social_nav {
+  text-align: center;
 }
-.social_nav a{
-	padding:10px;
-	color:#000;
+.social_nav a {
+  padding: 10px;
+  color: #000;
 }
-.social_nav a:hover{
-	color:#00bbcc;
+.social_nav a:hover {
+  color: #00bbcc;
 }
 .cv {
-    display: block;
-    width: 30%;
-    height: 3%;
-    background: #99AAB5;
-    padding: 10px;
-    text-align: center;
-    border-radius: 36px;
-    color: white;
-    font-weight: bold;
-    line-height: 25px;
-	margin-left: 34%;
+  display: block;
+  width: 30%;
+  height: 3%;
+  background: #99aab5;
+  padding: 10px;
+  text-align: center;
+  border-radius: 36px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  margin-left: 34%;
 }
 
 /*========================================
@@ -189,80 +202,81 @@ section{
 /*========================================
  	====4.0 Profile ====  
 ========================================*/
-.rez_about{
-	position:relative;
+.rez_about {
+  position: relative;
 }
-.rez_top_title h1{
-	color:#ffffff;
-	font-family: 'Lato', sans-serif; font-weight:900;
-	margin-top:-75px;
-	width:107%;
-	font-size:48px;
-	-webkit-text-stroke:#000 1px;
+.rez_top_title h1 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin-top: -75px;
+  width: 107%;
+  font-size: 48px;
+  -webkit-text-stroke: #000 1px;
 }
-.rez_top_title p{
-	color:#808080;
-	font-size:28px;
-	font-family: 'Lato', sans-serif; font-weight:700;
-	margin-top:32px;
-	}
+.rez_top_title p {
+  color: #808080;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-top: 32px;
+}
 h1.title {
-	color:#404040;
-	border-bottom:1px solid #bfbfbf;
-	text-align:center;
-	font-size:28px;
-	font-family: 'Lato', sans-serif; font-weight:700;
-	padding: 135px 0 36px 0;
+  color: #404040;
+  border-bottom: 1px solid #bfbfbf;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  padding: 135px 0 36px 0;
 }
-.rzm_progress_bar{
+.rzm_progress_bar {
 }
-.rzm_progress_bar h4{
-	color:#99AAB5 !important;
-	font-family: 'Lato', sans-serif; font-weight:900;
-	
+.rzm_progress_bar h4 {
+  color: #99aab5 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 .rzm_progress_bar .progress {
-    height: 3px !important;
-	margin-bottom:31px;
+  height: 3px !important;
+  margin-bottom: 31px;
 }
-.rzm_progress_bar .progress-bar{
-	background:#a5abbd;
+.rzm_progress_bar .progress-bar {
+  background: #a5abbd;
 }
-.rzm_perchantage{
-	margin-top:-30px;
-	font-size:16px;
-	font-weight:400;
-	color:#a5abbd;
+.rzm_perchantage {
+  margin-top: -30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a5abbd;
 }
 .progress-bar {
-	-webkit-transition:all 0.8s ease-in-out;
-    -moz-transition:all 0.8s ease-in-out;  
-    -o-transition:all 0.8s ease-in-out;         
-    transition:all 0.8s ease-in-out;  
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 /*========================================
  	====End Profile ====  
 ========================================*/
 
-.about{
-	padding-right: 0px !important;
-    padding-left: 0px !important; 
-	
-	}
-.about_info{
-	line-height: 33px;
-    font-size: 16px;
-	font-family: 'Lato', sans-serif; font-weight:400;
-	margin: 19px 0 110px 0;
-	text-align: justify;
-	text-justify: inter-word;
+.about {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
-.about_info a{
-
-	text-decoration:none;
+.about_info {
+  line-height: 33px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 19px 0 110px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
-
+.about_info a {
+  text-decoration: none;
+}
 
 /*========================================
  	====5.0 Experience Timeline ====  
@@ -271,7 +285,6 @@ h1.title {
 #rzm_timeline {
   list-style: none;
   position: relative;
-  
 }
 #rzm_timeline:before {
   top: 0;
@@ -303,11 +316,27 @@ h1.title {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+#rzm_timeline .rzm_timeline-badge-active {
+  color: #fff;
+  width: 10px;
+  height: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  background-color: #00a3ff;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
 #rzm_timeline .rzm_timeline-badge span.rzm_timeline-balloon-date-day {
   font-size: 1.4em;
 }
 #rzm_timeline .rzm_timeline-badge span.rzm_timeline-balloon-date-month {
-  font-size: .7em;
+  font-size: 0.7em;
   position: relative;
   top: -10px;
 }
@@ -334,12 +363,12 @@ h1.title {
 }
 #rzm_timeline .rzm_timeline-badge.rzm_timeline-future-movement a span {
   color: #4997cd;
-  font-size: .9em;
+  font-size: 0.9em;
   top: 2px;
   left: 1px;
 }
-.rzm_timeline-movement{
-	margin-top: 48px;
+.rzm_timeline-movement {
+  margin-top: 48px;
 }
 #rzm_timeline .rzm_timeline-movement {
   position: relative;
@@ -353,87 +382,256 @@ h1.title {
 #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel {
   color: #666;
   position: relative;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel .rzm_timeline-panel-ul {
+#rzm_timeline
+  .rzm_timeline-movement
+  .rzm_timeline-item
+  .rzm_timeline-panel
+  .rzm_timeline-panel-ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.credits .rzm_timeline-panel-ul {
+#rzm_timeline
+  .rzm_timeline-movement
+  .rzm_timeline-item
+  .rzm_timeline-panel.credits
+  .rzm_timeline-panel-ul {
   text-align: right;
 }
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.credits .rzm_timeline-panel-ul li {
+#rzm_timeline
+  .rzm_timeline-movement
+  .rzm_timeline-item
+  .rzm_timeline-panel.credits
+  .rzm_timeline-panel-ul
+  li {
   color: #808080;
-  font-family: 'Lato', sans-serif; font-weight:700;
-  font-size:15px;
- 
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
 }
-.rzm_timeline-panel-ul li{
-	line-height:17px !important;
+.rzm_timeline-panel-ul li {
+  line-height: 17px !important;
 }
 
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.debits .rzm_timeline-panel-ul {
+#rzm_timeline
+  .rzm_timeline-movement
+  .rzm_timeline-item
+  .rzm_timeline-panel.debits
+  .rzm_timeline-panel-ul {
   text-align: left;
 }
-#rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.debits .rzm_timeline-panel-ul span.importo {
-     color: #404040;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+#rzm_timeline
+  .rzm_timeline-movement
+  .rzm_timeline-item
+  .rzm_timeline-panel.debits
+  .rzm_timeline-panel-ul
+  span.importo
+  a {
+  color: #404040;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
-span.rzm_importo{
-	font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+span.rzm_importo {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
-span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
-	color:##99AAB5 !important;
-	cursor:pointer;
+span.rzm_importo:hover,
+.rzm_timeline-panel-ul span.importo:hover {
+  color: #99aab5 !important;
+  cursor: pointer;
 }
 
-.rzm_causale{
-	color: #808080;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
+.rzm_causale {
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
 }
-.active li .rzm_importo{
-	color:#00a3ff;
-	
+.active li .rzm_importo {
+  color: #00a3ff;
 }
-#rzm_timeline .rzm_timeline-badge.active_box{
-	background-color:##f2f2f2;
+.active a {
+  color: #00a3ff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.active {
+  color: #00a3ff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+#rzm_timeline .rzm_timeline-badge.active_box {
+  background-color: #f2f2f2;
 }
 /*========================================
  	====End experience Timeline ====  
 ========================================*/
 
-
 /*========================================
  	====6.0 Clients Area====  
 ========================================*/
-.rzm_client p{
-	font-size:28px;
-	color:#404040;
-	font-family: 'Lato', sans-serif;
-	margin: 50px 0 30px 0;
-	font-weight:300;
+.rzm_client p {
+  font-size: 28px;
+  color: #404040;
+  font-family: "Lato", sans-serif;
+  margin: 50px 0 30px 0;
+  font-weight: 300;
 }
-.rzm_client small{
-	font-size:16px;
-	color:#808080;
-	font-family: 'Lato', sans-serif; 
-	font-weight:700;
+.rzm_client small {
+  font-size: 16px;
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
-.rzm_client_img{
-	margin-top:94px;
-	margin-bottom: 40px;
+.rzm_client_img {
+  margin-top: 94px;
+  margin-bottom: 40px;
 }
-.rzm_client_img img{
-	padding:0px 30px;
+.rzm_client_img img {
+  padding: 0px 30px;
 }
 
+.show-more-btn {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.show-more-btn:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.show-more-btn:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.show-more-btn:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.show-more-btn:focus {
+  outline: 1px transparent;
+}
+
+.show-more-btn:before {
+  display: none;
+}
+
+.show-more-btn:-webkit-details-marker {
+  display: none;
+}
+
+/* Modal Header */
+.modal-header {
+  background-color: #4a4a4a;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-header h5 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.modal-body p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Modal Footer */
+.modal-footer {
+  border-top: none;
+}
+
+/* Close Button */
+.modal-header .close {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.modal-header .close:hover {
+  opacity: 1;
+}
+
+/* Close Button Hover Effect */
+.modal-header .close:focus,
+.modal-header .close:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Center the Modal */
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 60px);
+}
+
+/* Additional Styles */
+.modal-content {
+  border-radius: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-footer .btn-secondary {
+  background-color: #4a4a4a;
+  color: #fff;
+}
+
+.modal-body {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.modal-body p:last-child {
+  margin-bottom: 0;
+}
 
 /*========================================
  	====End Clients Area ====  
@@ -443,80 +641,80 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
  	====7.0 Testimonial Area ====  
 ========================================*/
 .rzm_testimonial_content {
-	margin-top: 62px;
+  margin-top: 62px;
 }
-.carousel-inner > .item{
-	border:none !important;
+.carousel-inner > .item {
+  border: none !important;
 }
 .adjust1 {
-	float: left;
-	width: 100%;
-	margin-bottom: 0;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
 }
 .adjust2 {
-	margin: 0;
+  margin: 0;
 }
 .rzm_Testimonial .carousel-indicators {
-    bottom: 8px;
-    left: 210px;
+  bottom: 8px;
+  left: 210px;
 }
-.carousel-indicators li{
-	background-color:#bfbfbf !important;
-	border:none !important;
-	margin: 0px 15px 0px 0px !important;
+.carousel-indicators li {
+  background-color: #bfbfbf !important;
+  border: none !important;
+  margin: 0px 15px 0px 0px !important;
 }
-.carousel-indicators .active{
-	width:10px !important;
-	height:10px !important;
-	margin-right: 0px 15px 0px 0px !important;
+.carousel-indicators .active {
+  width: 10px !important;
+  height: 10px !important;
+  margin-right: 0px 15px 0px 0px !important;
 }
 
-.carousel-indicators .active{
-	background-color:#454545 !important;
+.carousel-indicators .active {
+  background-color: #454545 !important;
 }
 .media-object {
-	margin: auto;
-	margin-top: -4%;
+  margin: auto;
+  margin-top: -4%;
 }
-.caption p{
-	font-family: 'Lato', sans-serif;
-	font-size:16px;
-	font-weight:400;
-	line-height:24px;
-	color:#404040;
+.caption p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #404040;
 }
-.caption blockquote p{
-	font-size:18px;
-	font-weight:700;
-	text-align:right;
+.caption blockquote p {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
 }
 
-.thumbnail{
-	border:none !important;
+.thumbnail {
+  border: none !important;
 }
-.caption blockquote{
-	float:right;
-	border-left:none;
-	padding: 0px 20px !important;
+.caption blockquote {
+  float: right;
+  border-left: none;
+  padding: 0px 20px !important;
 }
-.caption blockquote small{
-	font-family: 'Lato', sans-serif;
-	line-height:6px !important;
-	font-size:15px;
-	font-weight:700;
-	color:#808080;
-	text-align:right;
+.caption blockquote small {
+  font-family: "Lato", sans-serif;
+  line-height: 6px !important;
+  font-size: 15px;
+  font-weight: 700;
+  color: #808080;
+  text-align: right;
 }
 .caption blockquote small::before {
-    content: '';
+  content: "";
 }
 @media screen and (max-width: 768px) {
-.media-object {
-	margin-top: 0;
+  .media-object {
+    margin-top: 0;
+  }
 }
-}
-.thumbnail .caption{
-	padding: 0 0 0 25px;
+.thumbnail .caption {
+  padding: 0 0 0 25px;
 }
 
 /*========================================
@@ -526,49 +724,60 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 /*========================================
  	====8.0 Contact Area ====  
 ========================================*/
-.rzm_contact{
-	padding-bottom:170px;
-	padding-top:30px;
+.rzm_contact {
+  padding-bottom: 170px;
+  padding-top: 30px;
 }
-.rzm_contact .input-group{
-	float:left !important;
-	padding:10px 15px !important;
-	
+.rzm_contact .input-group {
+  float: left !important;
+  padding: 10px 15px !important;
 }
 
-.rzm_contact .input-group input{
-	border:1px solid #cccccc !important;
-	background:#f7f7f7 !important;
-	border-radius:5px !important;
-	margin-top:10px;
-	height:50px;
-	padding:0px 0px 0px 20px !important;
-	font-size:18px;
+.rzm_contact .input-group input {
+  border: 1px solid #cccccc !important;
+  background: #f7f7f7 !important;
+  border-radius: 5px !important;
+  margin-top: 10px;
+  height: 50px;
+  padding: 0px 0px 0px 20px !important;
+  font-size: 18px;
 }
-.rzm_msz_box textarea{
-	min-width:100%;
-	margin-top:10px;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-	display:block;
-	border:1px solid #cccccc !important;
-	background:#f7f7f7 !important;
-	border-radius:5px !important;
-	margin-bottom:30px;
-	height:200px !important;
-	padding-top:20px !important;
-	padding-left:20px !important;
-	font-size:18px;
+.rzm_msz_box textarea {
+  min-width: 100%;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #cccccc !important;
+  background: #f7f7f7 !important;
+  border-radius: 5px !important;
+  margin-bottom: 30px;
+  height: 200px !important;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  font-size: 18px;
 }
-.rzm_contact_form{
-	margin-top:40px;
+.rzm_contact_form {
+  margin-top: 40px;
 }
-.rzm_btn_block{
-	padding:20px 0px;
+.rzm_btn_block {
+  padding: 20px 0px;
 }
-.main-btn{ background:#00bbcc; border-color:#00bbcc; color:#fff;min-width:160px;min-height:50px;font-family: 'Lato', sans-serif;font-size:18px !important; font-weight:900 !important;}
-.main-btn:hover{ background:#00c2cc;color:#fff !important;}
+.main-btn {
+  background: #00bbcc;
+  border-color: #00bbcc;
+  color: #fff;
+  min-width: 160px;
+  min-height: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+.main-btn:hover {
+  background: #00c2cc;
+  color: #fff !important;
+}
 /*========================================
  	====End Contact Area ====  
 ========================================*/
@@ -576,35 +785,36 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 /*========================================
  	====9.0 Footer Area ====  
 ========================================*/
-.rzm_footer{
-	width:100%;
-	height:auto;
-	color:#404040;
-	background:#f2f2f2;
+.rzm_footer {
+  width: 100%;
+  height: auto;
+  color: #404040;
+  background: #f2f2f2;
 }
-.rzm_footer h4{
-	text-align:center;
-	font-family: 'Lato', sans-serif;
-	font-size:15px;
-	margin:40px 0 20px 0;
-	font-weight:700;
+.rzm_footer h4 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  margin: 40px 0 20px 0;
+  font-weight: 700;
 }
-.rez_footer_social{
-	font-size:18px;
-	text-align:center;
+.rez_footer_social {
+  font-size: 18px;
+  text-align: center;
 }
-.rez_footer_social a{
-	color:#404040;
-	padding:0 10px;
+.rez_footer_social a {
+  color: #404040;
+  padding: 0 10px;
 }
-.rez_footer_social a i:hover{
-	color:#00b3ab;
+.rez_footer_social a i:hover {
+  color: #00b3ab;
 }
-.rzm_footer p{
-	text-align:center;
-	font-family: 'Lato', sans-serif; font-weight:500;
-	font-size:15px;
-	margin:20px 0 40px 0;
+.rzm_footer p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 20px 0 40px 0;
 }
 /*========================================
  	====End Footer Area ====  
